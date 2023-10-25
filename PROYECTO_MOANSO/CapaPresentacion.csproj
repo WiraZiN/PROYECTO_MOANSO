@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MantenedorMarcaPrenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorMarcaPrenda.Designer.cs">
+      <DependentUpon>MantenedorMarcaPrenda.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorPrenda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorMarcaPrenda.resx">
+      <DependentUpon>MantenedorMarcaPrenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MantenedorPrenda.resx">
       <DependentUpon>MantenedorPrenda.cs</DependentUpon>
     </EmbeddedResource>

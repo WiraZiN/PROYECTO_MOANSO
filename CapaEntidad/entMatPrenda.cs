@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    public class Class1
+    public class entMatPrenda
     {
+        public int idMatPrenda { get; set; }
+        public string Material { get; set; }
+        public Boolean estMaterial { get; set; }
+
     }
 }
