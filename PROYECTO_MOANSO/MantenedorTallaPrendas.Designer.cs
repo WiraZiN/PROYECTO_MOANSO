@@ -98,18 +98,18 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(70, 410);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 20);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Talla de Material:";
+            this.label2.Text = "Talla de Prenda:";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(452, 358);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(168, 24);
+            this.checkBox1.Size = new System.Drawing.Size(163, 24);
             this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "Estado de material";
+            this.checkBox1.Text = "Estado de Prenda";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox2
